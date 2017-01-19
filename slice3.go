@@ -12,4 +12,6 @@ func main(){
 	numbers1 := make([] int,len(numbers),len(numbers)*2-1) 
 	copy(numbers1,numbers)
 	fmt.Println(numbers1,len(numbers1),cap(numbers1))
+	numbers3 := numbers
+	fmt.Println(numbers3)
 }
