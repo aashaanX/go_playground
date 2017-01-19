@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main(){
+	name := "Jack"
 	numbers := [] int {1,2,3,4,5}
 	fmt.Println(numbers)
 	for i:= range(numbers){
@@ -18,5 +19,9 @@ func main(){
 
 	for country,capital := range countryCapitalMap{
 		fmt.Println("The Capital of",country,"is",capital)
+	}
+
+	for i:= range name{
+		fmt.Println(name[i])
 	}
 }
